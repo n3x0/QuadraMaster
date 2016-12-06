@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TableRow
+        android:layout_gravity="center"
+        android:gravity="center">
+        <com.daidam.quadramaster.modelos.Card android:id="@+id/first_card" android:background="@drawable/card_block" android:layout_width="40dp" android:layout_height="40dp"/>
+        <com.daidam.quadramaster.modelos.Card android:id="@+id/second_card" android:background="@drawable/card_block" android:layout_width="40dp" android:layout_height="40dp"/>
+        <com.daidam.quadramaster.modelos.Card android:id="@+id/third_card" android:background="@drawable/card_block" android:layout_width="40dp" android:layout_height="40dp"/>
+        <com.daidam.quadramaster.modelos.Card android:id="@+id/fourth_card" android:background="@drawable/card_block" android:layout_width="40dp" android:layout_height="40dp"/>
+        <com.daidam.quadramaster.modelos.Card android:id="@+id/fifth_card" android:background="@drawable/card_block" android:layout_width="40dp" android:layout_height="40dp"/>
+    </TableRow>
+
+</TableLayout>
